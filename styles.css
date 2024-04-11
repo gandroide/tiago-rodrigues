@@ -1,0 +1,128 @@
+.global-class {
+font-family: "Inter";
+margin: 0;
+padding: 0;
+}
+
+.nav-bar {
+   background-color: white;
+   width: 100%;
+   height: 120px;
+   display: flex;
+   align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-first-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-last-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-link {
+    margin: 0 10px
+}
+
+.nav-button {
+  background-color: white;
+  align-items: center;
+  border: 1px solid  #75F348;
+  border-radius: .25rem;
+  box-sizing: border-box;
+  color: #75F348;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 0;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  width: auto;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  border-color: #75F348;
+  background-color: #75F348;
+  color: white;
+}
+
+.nav-button:active {
+  background-color: #75F348;
+  transform: translateY(0);
+}
+
+.image-description {
+  color: #75F348;
+  display: flex;
+  flex-direction: column;
+  Width: 784px;
+  Height: 377px;
+  margin-right: 20px;
+}
+
+.span-img-caption {
+    margin: 10px;
+}
+
+.text-span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #1C50EA;
+}
+
+.about-moral {
+    margin: 0 50px;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.title-h1 {
+  color: #1C50EA;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 96.82px;
+  text-align: left;
+}
+
+.how-works-container {
+    display: flex;
+    justify-content: center;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+}
+
+.art-icon {
+    margin: 12px;
+    width: 100px;
+}
+
+.spray-icon {
+    margin: 17px;
+    width: 90px;
+}
+
+.how-works {
+    margin: 50px;
+}
