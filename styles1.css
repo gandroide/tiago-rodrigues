@@ -39,6 +39,59 @@ li {
     display: none;
 }
 
+.faqs-item {
+    background-color: #f2f4f8;
+    color: #1c50ea;
+    border-radius: 16px;
+}
+
+.faqs-item:not(:last-of-type) {
+    margin-bottom: 24px;
+}
+
+.faqs-item .faqs-item-collapse {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c50ea;
+}
+
+.faqs-item .faqs-item-content {
+    padding: 0 20px 20px;
+}
+
+.faqs-item .faqs-item-collapse-description {
+    text-align: left;
+}
+
+.faqs-item .faqs-item-content {
+    display: none;
+}
+
+.faqs-item .faqs-item-collapse-arrow {
+    margin-left: 16px;
+    display: flex;
+}
+
+.faqs-item .faqs-item-collapse-arrow svg {
+    width: 20px;
+}
+
+
+.faqs-item-open .faqs-item-content {
+    display: block;
+}
+
+.faqs-item-open .faqs-item-collapse-arrow {
+    transform: rotate(180deg);
+}
+
 @media screen and (min-width: 576px) {
     .artist-list {
         grid-template-columns: repeat(2, 1fr);
