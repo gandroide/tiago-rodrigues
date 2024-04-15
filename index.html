@@ -5,28 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@1 0..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Moral</title>
 </head>
 <body class="global-class">
-    <section class="nav-bar" title="nav-bar">
-        <div class="nav-container">
-            <div class="nav-first-section">
-                <img class="nav-link" src="src/Vectorlogo.svg" title="logo moral" alt="logo">LOGO</img>
+    <section class="nav-bar" title="nav-bar">   
+        <div id="mobile-nav-bar">
+            <div id="mobile-nav-buttons">
+                <img id="whitelogo" src="src/VectorwhiteLogo.svg" alt="whitelogo">
+                <img id="hamburguer" src="src/hamburguerMenu.svg" alt="hamburguer">
+            </div>
+            <div id="description-banner-text">
+                <div id="banner-mobile">
+                    <h1>EXPLORA O CORAÇÃO DA ARTE URBANA</h1>
+                        <span id="description-banner-substitles">
+                            Envia já a candidatura com a tua vontade de te expressares na nossa galeria, para seres o próximo artista nas nossas paredes!
+                        </span>
+                        <span class="spacing-description">A Galeria MORAL tem as únicas paredes legalizadas em toda a ilha da Madeira.</span>
+                        <button class="nav-button" role="button">CANDIDATURA ></button>
+                    </div>
+                    <div id="logo-text-container">
+                        <div id="icon-group">
+                            <img id="logo-text" src="src/logoText.svg" alt="logoText">
+                            <img id="rollback" src="src/rollback.svg" alt="rollback">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="desktop-nav-bar" class="nav-container">
+            <div  class="nav-first-section">
+                <img id="logo" class="nav-link" src="src/Vectorlogo.svg" title="logo moral" alt="logo">LOGO</img>
                 <div class="nav-link">MORAL</div>
                 <div class="nav-link">Obras</div>
                 <div class="nav-link">Artistas</div>
                 <button class="nav-button" role="button">CANDIDATURA ></button>
             </div>
             <div class="nav-last-section">
-                <img class="nav-link" src="src/lupa.svg" title="pesquisa" alt="pesquisa" />
-                <button class="nav-button" role="button">LOGIN</button>
+                    <img class="nav-link" src="src/lupa.svg" title="pesquisa" alt="pesquisa" />
+                    <button class="nav-button" role="button">LOGIN</button>
             </div>
         </div>
     </section>
-    <div>
-        <img src="src/Banner.svg" alt="banner">
+    <div id="content">
+        <img id="banner" src="src/Banner.svg" alt="banner">
     </div>
     
     <section title="about-moral" class="about-moral">
