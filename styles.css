@@ -11,7 +11,8 @@
 /* mobile */
 
 #desktop-nav-bar {
-    display: none
+    display: none;
+  font-family: "Inter";
 }
 
 #content {
