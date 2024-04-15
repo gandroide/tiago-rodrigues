@@ -218,10 +218,35 @@
   display: none;
 }
 
+.text-span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #1C50EA;
+}
+
+.image-description {
+  color: #75F348;
+  display: flex;
+  flex-direction: column;
+  Width: 100%;
+  Height: 377px;
+}
+
+.large-text {
+  display: none;
+}
+
 /* tablet */
 @media screen and (min-width: 576px) {
     #content {
         background-color: lightblue;
+    }
+
+    #description-banner-text {
+        margin-top: 200px;
+ 
     }
 }
 
@@ -229,6 +254,13 @@
   .works-list {
     grid-template-columns: repeat(2, 1fr);
   }
+
+
+  .image-description {
+    Width: 484px;
+    padding-right: 20px;
+  }
+
 }
 
 @media screen and (min-width: 850px) {
@@ -244,6 +276,15 @@
     display: unset;
     margin-top: 16px;
   }
+
+  .large-text {
+    display: none;
+  }
+
+    
+  .resume-container {
+    display: flex;
+}
 }
 
 /* desktop */
@@ -251,6 +292,11 @@
   .title-h1 {
     font-size: 80px;
   }
+
+
+.large-text {
+  display: flex;
+}
 
   .section-works,
   .section-artist,
@@ -267,7 +313,7 @@
   }
 
   #description-banner-text {
-      margin-top: 200px;
+      margin-top: 300px;
       display: flex;
       flex-direction: column;
       font-size: 24px;
@@ -363,7 +409,7 @@
     color: #75F348;
     display: flex;
     flex-direction: column;
-    Width: 784px;
+    Width: 484px;
     Height: 377px;
     margin-right: 20px;
   }
