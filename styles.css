@@ -6,12 +6,30 @@
 
 .global-class {
     font-family: "Inter";
-  }
+}
+
+.title-h1 {
+  color: #1C50EA;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 40px;
+}
   
 /* mobile */
 
-.section-works {
-  padding: 0 20px;
+.section-works,
+.section-artist,
+.section-faqs,
+.section-how-works,
+.about-moral {
+  padding: 40px 20px;
+}
+
+.section-faqs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nav {
@@ -23,6 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .nav .nav-toggle {
@@ -223,11 +242,23 @@
 
   .how-works-container .nav-button {
     display: unset;
+    margin-top: 16px;
   }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px) {
+  .title-h1 {
+    font-size: 80px;
+  }
+
+  .section-works,
+  .section-artist,
+  .section-how-works,
+  .about-moral {
+    padding: 40px 10%;
+  }
+
   #icon-group #logo-text {
       position: absolute;
       right: 150px;
@@ -357,14 +388,6 @@
       display: flex;
   }
   
-  .title-h1 {
-    color: #1C50EA;
-    font-size: 80px;
-    font-weight: 900;
-    line-height: 96.82px;
-    text-align: left;
-  }
-  
   .art {
       display: flex;
       flex-direction: column;
@@ -396,15 +419,7 @@
   .section-works .works-cta {
     display: flex;
     justify-content: flex-end;
-    margin: 40px 50px 0px 50px;
-  }
-
-  .artist-section {
-    margin: 0 40px;
-  }
-
-  .faqs-section {
-    margin: 0 40px 40px 40px;
+    margin-top: 40px;
   }
 }
 
