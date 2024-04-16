@@ -307,8 +307,8 @@
 
   #icon-group #logo-text {
       position: absolute;
-      right: 150px;
-      bottom: 80px;
+      right: 100px;
+      bottom: 50px;
       width: 200px;
   }
 
@@ -424,10 +424,6 @@
     line-height: 32px;
     text-align: left;
     color: #1C50EA;
-  }
-  
-  .about-moral {
-      margin: 0 50px;
   }
   
   .resume-container {
