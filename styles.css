@@ -62,11 +62,12 @@
 #mobile-nav-bar {
     width: 100%;
     position: absolute;
-    padding: 30px 20px;
+    padding: 30px 10%;
     color: white;
     top: 0;
     left: 0;
     height: 100%;
+
 }
 
 #mobile-nav-buttons {
@@ -371,8 +372,12 @@
   }
   
   .nav-link {
-      margin: 0 10px
+      margin: 0 20px
   }
+  .nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
   
   .nav-button {
     background-color: transparent;
@@ -637,10 +642,10 @@ li {
   display: flex;
   gap: 40px;
   margin-top: 24px;
+  justify-content: end;
 }
 
 .footer .footer-support-logos img {
-  flex: 1;
 }
 
 .footer .footer-copyright-container {
@@ -734,4 +739,11 @@ li {
   .artist-item:nth-child(8) {
       display: flex;
   }
+
+  .mayor-menor {
+    font-size: 24px; /* Tamaño del símbolo */
+    line-height: 12px; /* Espacio entre líneas */
+    transform: rotate(90deg); /* Rotar el símbolo 90 grados */
+}
+
 }
